@@ -1,0 +1,28 @@
+.sudoku-container {
+    border: 1px solid #111;
+    display: inline-block;
+    font-size: 1.3em;
+}
+
+.sudoku-row {
+    overflow: hidden;
+    border-bottom: 1px solid #111;
+}
+
+.sudoku-row:last-child {
+    border-bottom: none;
+}
+
+.sudoku-row span {
+    float: left;
+    border-right: 1px solid #111;
+    display: block;
+    padding: 15px 20px;
+    width: 30px;
+    height: 20px;
+    text-align: center;
+}
+
+.sudoku-row span:last-child {
+    border-right: none;
+}
